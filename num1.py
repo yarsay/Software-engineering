@@ -1,13 +1,12 @@
 import math
 
 
-def func_x():
+def x():
     return math.cos(5) ** 2
 
 
-def func_y():
+def y():
     return int(input()) ** 3 - 1
 
-def func():
 
-print(func_x() + func_y())
+print(x() + y())
