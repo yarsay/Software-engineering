@@ -5,8 +5,12 @@ def x():
     return math.cos(5) ** 2
 
 
-def y():
-    return int(input()) ** 3 - 1
+def y(z):
+    return z ** 3 - 1
 
 
-print(x() + y())
+def func(x, y):
+    return x + y
+
+
+print(func(x(), y(int(input()))))
